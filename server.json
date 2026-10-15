@@ -5,6 +5,10 @@
   "description": "Load test your app on a real server from your agent. Get p95, errors and what ran out first.",
   "version": "1.0.0",
   "websiteUrl": "https://stresix.com/mcp/",
+  "repository": {
+    "url": "https://github.com/DevMatei/stresix-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.stresix/stresix",
+  "title": "Stresix",
+  "description": "Load test your app on a real server from your agent. Get p95, errors and what ran out first.",
+  "version": "1.0.0",
+  "websiteUrl": "https://stresix.com/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stresix.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your Stresix API key (Settings, Keys for agents, on stresix.com)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

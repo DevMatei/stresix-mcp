@@ -71,7 +71,7 @@ claude mcp add --transport http stresix https://stresix.com/mcp \
 
 | Run | Load | Target server | Cost |
 | --- | --- | --- | --- |
-| Lite | 500 users, 4 minutes | 2 vCPU / 4 GB | Free once per GitHub account |
+| Lite | 500 users, 4 minutes | 2 vCPU / 4 GB | Free once per person |
 | Standard | 2,500 users, 10 minutes | 4 vCPU / 8 GB | 1 credit |
 | Massive | 10,000 users, 15 minutes | 8 vCPU / 16 GB | 3 credits |
 
